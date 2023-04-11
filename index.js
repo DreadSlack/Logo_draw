@@ -2,9 +2,7 @@ var pickShape = require('./library/shapes')
 
 function generateSVG(data) {
     const color = data.color;
-
     const shape = pickShape(data.shape);
-
     const text = data.text;
 
     return `
